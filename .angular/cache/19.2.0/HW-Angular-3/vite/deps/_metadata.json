@@ -1,49 +1,58 @@
 {
-  "hash": "014c6a7b",
-  "configHash": "66e58ce4",
+  "hash": "711a8fbc",
+  "configHash": "7452e541",
   "lockfileHash": "060b5cf7",
-  "browserHash": "027c65fc",
+  "browserHash": "a478bec8",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "d71689b0",
+      "fileHash": "18f97d80",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "34173086",
+      "fileHash": "69edbe76",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "d1d275ff",
+      "fileHash": "5e70e2a3",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "ef3f7fe7",
+      "fileHash": "e935cdf1",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "2590fdaa",
+      "fileHash": "f5491b67",
+      "needsInterop": false
+    },
+    "tslib": {
+      "src": "../../../../../../node_modules/tslib/tslib.es6.mjs",
+      "file": "tslib.js",
+      "fileHash": "ffbe19f9",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-36WLOQKV": {
-      "file": "chunk-36WLOQKV.js"
+    "chunk-5PWNZJX4": {
+      "file": "chunk-5PWNZJX4.js"
     },
-    "chunk-U3FJ3BT6": {
-      "file": "chunk-U3FJ3BT6.js"
+    "chunk-QWCXOI2Y": {
+      "file": "chunk-QWCXOI2Y.js"
     },
-    "chunk-TXZMGFPN": {
-      "file": "chunk-TXZMGFPN.js"
+    "chunk-FPN3UTRW": {
+      "file": "chunk-FPN3UTRW.js"
+    },
+    "chunk-EPAV4CNQ": {
+      "file": "chunk-EPAV4CNQ.js"
     }
   }
 }
