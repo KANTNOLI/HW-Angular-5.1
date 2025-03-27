@@ -1,0 +1,5 @@
+<section class="filters">
+  <input type="text" (keyup)="setCarts.emit(search)" [(ngModel)]="search" />
+  <button (click)="setSort.emit(0)">name</button>
+  <button (click)="setSort.emit(1)">price</button>
+</section>

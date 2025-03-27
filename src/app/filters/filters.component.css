@@ -1,0 +1,19 @@
+.filters {
+    display: flex;
+    padding: 0px 100px;
+    align-items: center;
+    width: calc(100% - 200px);
+    height: 20vh;
+
+    background-color: rgb(43, 43, 43);
+}
+
+.filters button{
+    margin-left: 10px;
+    background-color: black;
+}
+
+.filters input{
+    margin-left: 10px;
+    background-color: black;
+}

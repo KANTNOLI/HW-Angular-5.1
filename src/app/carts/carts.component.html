@@ -1,0 +1,9 @@
+<section class="carts">
+  <div
+    *ngFor="let cart of filterCarts"
+    [innerHTML]="cart | renderCart"
+    class="cart"
+    (click)="toggleCart.emit(cart.id)"
+    [ngClass]="{ cartsBack: search.toLowerCase() == cart.title.toLowerCase()}"
+  ></div>
+</section>

@@ -1,0 +1,5 @@
+<div class="inputs">
+    <input type="text" placeholder="title" (keyup)="updateCart.emit(actCartTitle)" [(ngModel)]="actCartTitle">
+    <input type="number" placeholder="price" (keyup)="updateCart.emit(actCartPrice)" [(ngModel)]="actCartPrice">
+    <button (click)="removeCart.emit()">remove</button>
+</div>

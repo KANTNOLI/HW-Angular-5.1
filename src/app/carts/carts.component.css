@@ -1,0 +1,38 @@
+.carts {
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+    width: 100vw;
+    height: 78vh;
+
+    background-color: rgb(43, 43, 43);
+}
+
+
+
+.cart {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    min-height: 200px;
+    background-color: black;
+}
+
+.cartsBack{
+    background-color: rgb(30, 30, 46);
+}
+
+.cart img {
+    width: 200px;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.desc {
+    font-size: 16px;
+    color: rgb(172, 172, 172);
+}

@@ -1,0 +1,22 @@
+<main class="main">
+  <app-filters
+    [search]="search"
+    [historyClick]="historyClick"
+    (setCarts)="setCarts($event)"
+    (setSort)="setSort($event)"
+  ></app-filters>
+
+  <app-carts
+    [search]="search"
+    [carts]="carts"
+    [filterCarts]="filterCarts"
+    (toggleCart)="toggleCart($event)"
+  ></app-carts>
+
+  <app-inputs
+    [actCartTitle]="actCartTitle"
+    [actCartPrice]="actCartPrice"
+    (updateCart)="updateCart($event)"
+    (removeCart)="removeCart()"
+  ></app-inputs>
+</main>
